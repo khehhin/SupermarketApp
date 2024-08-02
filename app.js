@@ -5,10 +5,10 @@ const flash = require('connect-flash');
 const app = express();
 
 const connection = mysql.createConnection({
-    host: 'localhost',
-    user: 'root',
-    password: '',
-    database: 'c237_l11b_supermarketapp'
+    host: 'sql.freedb.tech',
+    user: 'freedb_dbuser',
+    password: 'Gjxr#YGB3p@59B!',
+    database: 'freedb_c237_supermarket'
   });
 
 connection.connect((err) => {
